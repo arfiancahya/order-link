@@ -4,7 +4,8 @@ html {
 }
 
 body {
-    background-color: #393ba8;
+    background: rgb(238,174,202);
+    background: linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     padding: 0;
     margin: 0;
     display: block;
@@ -17,8 +18,8 @@ body {
     position: relative;
 }
 
-#app .images {
-    margin-top: 3vh;
+.images {
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +28,6 @@ body {
 
 #app .header {
     display: block;
-    background-color: #393ba8;
     color: #fff;
     text-align: center;
     padding: 0;
@@ -74,7 +74,8 @@ body {
     height: 10vh;
     position: fixed;
     z-index: 1;
-    background-color: #393ba8;
+    background: rgb(191,176,183);
+    background: linear-gradient(0deg, rgba(191,176,183,1) 0%, rgba(148,187,233,1) 60%);
     color: #fff;
     bottom: 0;
     left: 0;
